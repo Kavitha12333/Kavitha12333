@@ -1,0 +1,70 @@
+root{
+    --box--shadow:px 1px 4px 1px rgba(199,199,199)
+    --income:green;
+    --expanse:red;
+
+
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display:flex;
+    flex-direction:column;
+justify-content:center;
+align-items-center;
+
+}
+.app h1{
+    text-align:center;
+}
+h2{
+    text-transform:uppercase
+}
+.balance_container #balance{
+    font-size: 0cm;
+}
+.cashflow-container{
+    display:flex;
+    box-shadow:var(--box--shadow)
+    align-iterms-center;
+    justify-content:center;
+    padding-bottom:20px;
+    padding-top:20px;
+    padding-top:20px;
+    margin-top:20px;
+}
+
+.income-container{
+    border-right:1px saddlebrown;
+    padding-top: 20px;
+
+}
+.expance-container{
+    padding: left 20px; ;
+}
+#income,#container{
+    font-size: 1.mm;
+
+}
+#income{
+color:var(---incom)
+}
+#expanse{
+    color:var(----expanse)
+}
+#transaction{
+    list-style:name;
+    margin:0;
+    padding:0;
+
+}
+#transaction li{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:10px;
+    margin-bottom:10px;
+    box-shadow:var(--box--shadow);
+}
+
+}
+
